@@ -17,7 +17,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "gen-flags-components": "node node_modules/@svgr/cli/bin/svgr --typescript --icon -d src/components/Flags/CountryFlags --ignore-existing flagsIcons",
-    "gen-icons-components": "node node_modules/@svgr/cli/bin/svgr --typescript --icon -d src/components/Icons --ignore-existing src/assets/icons"
+    "gen-icons-components": "node node_modules/@svgr/cli/bin/svgr --typescript --icon -d src/components/Icons --ignore-existing src/assets/icons",
+    "prepare": "husky install"
   },
   "author": "Kostya Polishko",
   "license": "MIT",
@@ -50,7 +51,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.4.3",
     "jest-environment-jsdom": "^29.4.3",
@@ -74,7 +75,9 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
+      "prettier --write",
+      "jest",
+      "eslint",
       "git add"
     ]
   }
