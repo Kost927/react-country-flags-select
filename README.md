@@ -112,18 +112,18 @@ const customLabelOptions = {
 const searchPlaceholder = "some custom placeholder";
 const selectPlaceholder = "some custom placeholder";
 const classes = {
-    container: 'someNewClass',
-    selectWrapper: 'someNewClass',
-    searchSelect: 'someNewClass',
-    buttonSelect: 'someNewClass',
-    buttonSelectText: 'someNewClass',
-    clearIcon: 'someNewClass',
-    optionsWrapper: 'someNewClass',
-    option: 'someNewClass',
-    optionFlag: 'someNewClass',
-    optionText: 'someNewClass',
-    openIcon: 'someNewClass'
-    closeIcon: 'someNewClass'
+  container: "someNewClass",
+  selectWrapper: "someNewClass",
+  searchSelect: "someNewClass",
+  buttonSelect: "someNewClass",
+  buttonSelectText: "someNewClass",
+  clearIcon: "someNewClass",
+  optionsWrapper: "someNewClass",
+  option: "someNewClass",
+  optionFlag: "someNewClass",
+  optionText: "someNewClass",
+  openIcon: "someNewClass",
+  closeIcon: "someNewClass",
 };
 
 <ReactCountryFlagsSelect
@@ -136,7 +136,6 @@ const classes = {
   CustomOpenIcon={SomeIcon}
   CustomCloseIcon={SomeIcon}
   clearIcon={false}
-  clearIcon
   searchable
   labelWithCountryCode
   labelOnlyCountryCode
