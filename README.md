@@ -177,6 +177,10 @@ This project is written in Typescript. Tests are written with Jest and [React Te
 npm install
 ```
 
+## Feature
+
+Adding storybook.
+
 ## License
 
 MIT license.
