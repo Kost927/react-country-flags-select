@@ -1,6 +1,6 @@
 {
   "name": "react-country-flags-select",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react-country-flags-select component",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -81,13 +81,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run test && lint-staged"
     }
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "prettier --write",
-      "jest --passWithNoTests",
       "eslint",
       "git add"
     ]
