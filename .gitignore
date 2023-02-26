@@ -1,0 +1,5 @@
+node_modules
+dist
+npm-debug.log*
+src/components/Flags/CountryFlags/*.tsx
+src/components/Icons/*.tsx

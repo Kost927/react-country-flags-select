@@ -1,0 +1,4 @@
+/dist
+/node_modules
+/src/components/Flags/CountryFlags/*.tsx
+/src/components/Icons/*.tsx
