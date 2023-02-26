@@ -1,11 +1,22 @@
 {
   "name": "react-country-flags-select",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "react-country-flags-select component",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "files": [
     "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kost927/react-country-flags-select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kost927/react-country-flags-select/issues"
+  },
+  "homepage": "https://github.com/Kost927/react-country-flags-select",
+  "keywords": [
+    "react-component"
   ],
   "scripts": {
     "build": "rollup -c",
@@ -20,7 +31,7 @@
     "gen-icons-components": "node node_modules/@svgr/cli/bin/svgr --typescript --icon -d src/components/Icons --ignore-existing src/assets/icons",
     "prepare": "husky install"
   },
-  "author": "Kostya Polishko",
+  "author": "Kost927",
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.3.2",
