@@ -2,6 +2,10 @@
 
 A customizable SVG flags select component and standalone SVG flags components are provided by this React library.
 
+## Live demo example
+
+[Live demo stackblitz.com](https://stackblitz.com/edit/react-ts-5hkkek?file=App.tsx)
+
 ## Installation and usage
 
 ```
