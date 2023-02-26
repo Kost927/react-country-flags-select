@@ -2,10 +2,6 @@
 
 A customizable SVG flags select component and standalone SVG flags components are provided by this React library.
 
-## Code Example
-
-Live demo: [ekwonye-richard.github.io/react-flags-select/](https://ekwonye-richard.github.io/react-flags-select/?path=/story/reactflagsselect--primary)
-
 ## Installation and usage
 
 ```
@@ -35,28 +31,48 @@ List of Countries with country codes. [Countries](https://github.com/Kost927/rea
 
 ## Props
 
-`selected` - is a required `object` prop that contains current label and country code of the input.
-`onSelect` - is a required `function` prop that receive the selected country from the user, which will be used to update the selected value.
-`customCountries` - an option `object` prop that you can pass to replace default countries with your own `object`.
-`searchable` - an option `boolean` prop that you can pass to make select searchable. `false` by default.
-`customLabelOptions` - an option `object` prop that you can pass to rewrite original labels.
-`labelWithCountryCode` - an option `boolean` prop that you can pass to see the country label in format `United States (US)`. `false` by default.
-`labelOnlyCountryCode` - an option `boolean` prop that you can pass to see the country label in format `US`. `false` by default.
-`searchPlaceholder` - an option `string` prop that you can pass to replace default placeholder in searchable mode.
-`selectPlaceholder` - an option `string` prop that you can pass to replace default placeholder in not searchable mode.
-`CustomOpenIcon` & `CustomCloseIcon` - an option props that you can pass to replace default open and close icons.
-`clearIcon` - an option `boolean` prop that you can pass to remove clear icon. `true` by default.
-`selectWidth` & `selectHeight` - an option `number` props that you can pass to change the width or height of the select.
-By default `selectWidth = 250px`, `selectHeight = 30px`.
-`optionSize` & `selectedSize` an option `number` props that you can pass to change font size of the option or selected element.
-By default `optionSize = 16px`, `selectedSize = 16px`.
-`fullWidth` = an option `boolean` prop that you can pass to make select element full width. By default `false`.
-if `fullWidth = true` will ignore `selectWidth` & `selectHeight` props.
-`optionsListMaxHeight` - an option `number` prop that you can pass to change the max height of the dropdown overlay.
-By default `optionsListMaxHeight = 300px`.
-`disabled` = an option `boolean` prop that you can pass to disable select element.
-`id` = an option `string` prop that you can pass to container element.
-`classes` = an option `object` prop that you can pass to rewrite default classes.
+<ul>
+  <li>`selected` - is a required `object` prop that contains current label and country code of the input.</li>
+  <li>`onSelect` - is a required `function` prop that receive the selected country from the user, which will be used to update the selected value.
+  </li>
+  <li>`customCountries` - an option `object` prop that you can pass to replace default countries with your own `object`.
+  </li>
+  <li>`searchable` - an option `boolean` prop that you can pass to make select searchable. `false` by default.
+  </li>
+  <li>`customLabelOptions` - an option `object` prop that you can pass to rewrite original labels.
+  </li>
+  <li>`labelWithCountryCode` - an option `boolean` prop that you can pass to see the country label in format `United States (US)`. `false` by default.
+  </li>
+  <li>`labelOnlyCountryCode` - an option `boolean` prop that you can pass to see the country label in format `US`. `false` by default.
+  </li>
+  <li>`searchPlaceholder` - an option `string` prop that you can pass to replace default placeholder in searchable mode.
+  </li>
+  <li>`selectPlaceholder` - an option `string` prop that you can pass to replace default placeholder in not searchable mode.
+  </li>
+  <li>`CustomOpenIcon` & `CustomCloseIcon` - an option props that you can pass to replace default open and close icons.
+  </li>
+  <li>`clearIcon` - an option `boolean` prop that you can pass to remove clear icon. `true` by default.
+  </li>
+  <li>`selectWidth` & `selectHeight` - an option `number` props that you can pass to change the width or height of the select.
+  By default `selectWidth = 250px`, `selectHeight = 30px`.
+  </li>
+  <li>`optionSize` & `selectedSize` an option `number` props that you can pass to change font size of the option or selected element.
+  By default `optionSize = 16px`, `selectedSize = 16px`.
+  </li>
+  <li>`fullWidth` = an option `boolean` prop that you can pass to make select element full width. By default `false`.
+  if `fullWidth = true` will ignore `selectWidth` & `selectHeight` props.
+  </li>
+  <li>`optionsListMaxHeight` - an option `number` prop that you can pass to change the max height of the dropdown overlay.
+  By default `optionsListMaxHeight = 300px`.
+  </li>
+  <li>`disabled` = an option `boolean` prop that you can pass to disable select element.
+  </li>
+  <li>`id` = an option `string` prop that you can pass to container element.
+  </li>
+  <li>`classes` = an option `object` prop that you can pass to rewrite default classes.
+  </li>
+  <li></li>
+</ul>
 
 you can override such `classes` as:
 `container`, `selectWrapper`, `searchSelect`, `buttonSelect`, `buttonSelectText`, `clearIcon`, `optionsWrapper`,
