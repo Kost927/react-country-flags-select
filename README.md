@@ -1,6 +1,6 @@
 # react-country-flags-select
 
-A customizable SVG flags select component and standalone SVG flags components are provided by this React library.
+A customizable SVG flags select component and standalone SVG flags components are provided by this React component.
 
 ## Live demo example
 
@@ -21,7 +21,7 @@ import React, { useState } from "react";
 import ReactCountryFlagsSelect from "react-country-flags-select";
 
 const App = () => {
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState(null);
 
   <ReactCountryFlagsSelect selected={selected} onSelect={setSelected} />;
 };
@@ -102,7 +102,7 @@ List of Countries with country codes. [Countries](https://github.com/Kost927/rea
 ```javascript
 import { ReactComponent as SomeIcon } from "../SomeIcon.svg";
 
-const [selected, setSelected] = useState("");
+const [selected, setSelected] = useState(null);
 const customCountries = {
   US: "United States",
   AF: "Afghanistan",
