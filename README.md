@@ -172,17 +172,13 @@ export default Region;
 
 ## Contribution
 
-This project is written in Typescript. Tests are written with Jest and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Raise a pull request with your changes.
+This project is written in Typescript. [Storybook](https://storybook.js.org/). Tests are written with Jest and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Raise a pull request with your changes.
 
 #### Installation
 
 ```
 npm install
 ```
-
-## Feature
-
-Adding storybook.
 
 ## License
 

@@ -90,7 +90,7 @@ const ReactCountryFlagsSelect: React.FC<Props> = ({
       label: getCountryLabel(
         key as CountryCode,
         customLabelOptions as Countries,
-        allCountries,
+        countries,
         labelWithCountryCode,
         labelOnlyCountryCode
       ),
