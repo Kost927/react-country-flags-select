@@ -305,7 +305,7 @@ const ReactCountryFlagsSelect: React.FC<Props> = ({
               className={cx(styles.option, classes.option)}
               style={{ fontSize: optionSize ? `${optionSize}px` : "1rem" }}
             >
-              No options found...
+              No options found
             </li>
           )}
         </ul>
