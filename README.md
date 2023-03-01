@@ -5,6 +5,7 @@ A customizable SVG flags select component and standalone SVG flags components ar
 ## Live demo example
 
 [Live demo stackblitz.com](https://stackblitz.com/edit/react-ts-5hkkek?file=App.tsx)
+[Storybook](https://kost927.github.io/react-country-flags-select/)
 
 ## Installation and usage
 
