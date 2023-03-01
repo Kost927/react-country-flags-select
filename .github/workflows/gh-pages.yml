@@ -18,6 +18,7 @@ jobs:
         run: |
           npm install
           npm run gen-flags-components
+          npm run gen-icons-components
           npm run build-storybook
 
       - name: Deploy 🚀
