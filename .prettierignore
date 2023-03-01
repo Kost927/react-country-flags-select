@@ -1,4 +1,0 @@
-dist
-coverage
-/src/components/Flags/CountryFlags/*.tsx
-/src/components/Icons/*.tsx
